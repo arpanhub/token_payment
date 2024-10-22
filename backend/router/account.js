@@ -6,10 +6,11 @@ const mongoose = require('mongoose')
 const router = express.Router();
 
 router.get('/balance',authmiddleware,async function(req,res){
-    // console.log(req.user);
+    // console.log("in /balance");
+    // console.log(req.userId);
     try{
         const account = await Account.findOne({
-        userId:req.user
+        userId:req.userId
     });
     // console.log(account);
     res.json({
