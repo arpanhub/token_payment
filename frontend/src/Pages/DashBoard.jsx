@@ -25,7 +25,7 @@ export const Dashboard = () => {
         async function fetchuser(token){
             try {
             const response = await axios.get(
-                'http://localhost:3000/api/v1/user/userprofile',
+                'https://token-payment.onrender.com/api/v1/user/userprofile',
                 {
                     headers:{
                       "authorization":`Bearer ${token}`,

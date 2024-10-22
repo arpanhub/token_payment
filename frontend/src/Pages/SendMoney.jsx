@@ -47,7 +47,7 @@ export const SendMoney = () => {
                     <button onClick={async() => {
                         let response = null;
                     try{
-                        response = await axios.post("http://localhost:3000/api/v1/account/transfer", {
+                        response = await axios.post("https://token-payment.onrender.com/api/v1/account/transfer", {
                             to: id,
                             amount:amount
                         }, {

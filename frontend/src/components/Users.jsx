@@ -22,7 +22,7 @@ export const Users = () => {
     async function fetchUser(filter){
         try{
             const response = await axios.get(
-                'http://localhost:3000/api/v1/user/bulk',
+                'https://token-payment.onrender.com/api/v1/user/bulk',
                 {
                     params:{filter}
                 }

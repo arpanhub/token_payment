@@ -12,5 +12,5 @@ app.use(express.json());
 app.use('/api/v1',mainRouter);
 
 app.listen(3000,()=>{
-    console.log('Server is running on http://localhost:3000');
+    console.log('Server is running on https://token-payment.onrender.com');
 });
