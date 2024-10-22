@@ -18,7 +18,8 @@ router.get('/balance',authmiddleware,async function(req,res){
     }catch(err){
         console.error(err);
         res.status(400).json({
-            message:"Failed to fetch balance"
+            message:"Failed to fetch balance",
+            err:err
         })
     }
 });
