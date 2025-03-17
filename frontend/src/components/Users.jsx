@@ -4,8 +4,6 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
 
-
-
 export const Users = () => { 
     const [users,setusers] = useState([]);
     const [filter,setFilter] = useState("");
