@@ -8,8 +8,8 @@ This is a basic version of PayTM that provides payment functionalities, dashboar
 ## 🛠️ Tech Stack  
 - **Frontend:** HTML, CSS, JavaScript, React  
 - **Backend:** Node.js, Express.js  
-- **Database:** Firebase / MongoDB / PostgreSQL (mention the one you used)  
-- **Authentication:** Firebase Auth / JWT (mention the one you used)  
+- **Database:**  MongoDB 
+- **Authentication:**  JWT  
 
 ## 🎯 Features  
 ✅ User Authentication (Signup/Login)  
