@@ -25,3 +25,9 @@ This is a basic version of PayTM that provides payment functionalities, dashboar
    ```bash
    git clone https://github.com/your-username/paytm-clone.git
    cd paytm-clone
+   Install dependencies
+   npm install
+   Start the development server
+   npm start
+   Open in browser
+   http://localhost:3000
