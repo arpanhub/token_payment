@@ -14,9 +14,10 @@ This is a basic version of PayTM that provides payment functionalities, dashboar
 ## 🎯 Features  
 ✅ User Authentication (Signup/Login)  
 ✅ Dashboard for managing transactions  
-✅ Payment Gateway Replication
+✅ Payment Gateway Replication  
 ✅ Transaction History  
 ✅ Responsive UI  
+
 
 ## 🚀 How to Run Locally  
 
